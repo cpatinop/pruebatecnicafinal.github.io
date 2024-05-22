@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+/* Formateo para los rem */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Funte para toda la pagina */
+* {
+  font-family: "Nunito Sans", sans-serif;
+  color: #424242;
+}
+
+/* CABECERA */
+
+.navbar {
+  z-index: 2;
+}
+
+.row.header {
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.busqueda {
+  border-radius: 20px !important;
+  border: 1px solid #782b7f !important;
+}
+
+.fondoCarro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #782b7f;
+}
+
+.carro {
+  cursor: pointer;
+  padding: 2px;
+  width: 28px;
+  height: 28px;
+}
+
+.menu {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+/* CARRUSEL */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #86c871;
+  border-radius: 50%;
+}
+
+/* DESCRIPCION DEL PRODUCTO */
+
+.descripcion h3 {
+  font-weight: 700;
+  color: #86c871;
+}
+
+.seleccion img {
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid #d8d8d8;
+  width: 100%;
+  max-width: 100px;
+}
+
+.selector select {
+  border-radius: 20px;
+  border: 1px solid #782b7f;
+  color: #782b7f;
+}
+
+.comprar .btnCompra {
+  font-weight: 700;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #782b7f;
+  border-radius: 50%;
+  color: #ffff;
+}
+
+.btnañadir {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 20px;
+  background-color: rgba(120, 43, 127, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  margin-left: 100px;
+}
+.btnañadir:hover {
+  background-color: rgb(68, 0, 255);
+}
+
+.btnañadir:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.colorverde {
+  color: #86c871;
+}
+
+.producto__precio {
+  font-size: 30px;
+}
+.Precio_Anterior {
+  font-size: 20px;
+  color: #999;
+}
+
+.ParrafoWade{
+    font-size: 15px;
+}
+
+.partelogan{
+  font-size: 10px;
+  color: blue;
+}
+.comprar,
+.selector,
+.seleccion {
+  width: 85% !important;
+}
+
+.cantidad {
+  text-align: center;
+}
+
+.cantidad span {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.guiaCarrusel img {
+  width: 70px;
+}
+
+.guiaCarrusel #seleccionado {
+  border: 3px solid #86c871;
+}
+
+/* ACORDEON */
+
+.accordion h2 button {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 23px;
+  font-weight: 700;
+  background: linear-gradient(
+    180deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(241, 241, 241, 1) 7%,
+    rgba(254, 254, 254, 1) 13%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/* PIE DE PAGINA */
+
+.footer {
+  background-color: #782b7f;
+}
+
+.rowFooter h2 {
+  padding-bottom: 6px;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.col-12.col-md-4.my-4.my-md-0.d-flex.flex-column {
+  color: white;
+}
